@@ -52,7 +52,7 @@ fetch(API_URL)
       propertyType.innerHTML = property_type;
 
       propertyName = document.createElement("p");
-      propertyName.className = "property-name ";
+      propertyName.className = "property-name";
       propertyName.innerText = name;
 
       propertyPrice = document.createElement("p");
