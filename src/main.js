@@ -31,7 +31,7 @@ fetch(API_URL)
       // Crie um elemento "img" e, atribua a class como "card-img-top";
       // Não se esqueça que sua imagem precisa ser referenciada!
       image = document.createElement("img");
-      image.className = "img";
+      image.className = "card-img-top";
       image.src = photo;
 
       // Legal! Agora, já podemos começar a construir o "corpo" do card. Bora lá!
@@ -52,7 +52,7 @@ fetch(API_URL)
       propertyType.innerHTML = property_type;
 
       propertyName = document.createElement("p");
-      propertyName.className = "property-name";
+      propertyName.className = "property-name ";
       propertyName.innerText = name;
 
       propertyPrice = document.createElement("p");

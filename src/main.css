@@ -5,6 +5,7 @@
 
 .property-type {
   color: #a52903;
+  text-transform: uppercase;
   font-weight: bold;
 }
 
